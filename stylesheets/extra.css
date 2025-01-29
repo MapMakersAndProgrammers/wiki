@@ -1,0 +1,26 @@
+:root {
+  --md-primary-fg-color:        #2B579A;
+  --md-primary-fg-color--light: #7BAFD4;
+  --md-primary-fg-color--dark:  #1A365F;
+}
+
+.md-header {
+  box-shadow: 0 0 0.2rem rgba(0,0,0,.1), 0 0.2rem 0.4rem rgba(0,0,0,.2);
+}
+
+.md-tabs {
+  background-color: var(--md-primary-fg-color);
+}
+
+.md-search__form:hover {
+  background-color: rgba(255,255,255,0.1);
+}
+
+.md-typeset h1 {
+  font-weight: 600;
+  color: var(--md-primary-fg-color);
+}
+
+.md-footer {
+  margin-top: 2em;
+}
